@@ -1,0 +1,363 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.66f1-e7adf66625be' branch; Version is '6000.0.66f2 (b20bc5da3050) revision 11668421'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ahmed" at "2026-01-31T18:58:35.4400796Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15790 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-01-31T18:58:35Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker25
+-projectPath
+C:/Users/ahmed/USTHB ADVENTURE
+-logFile
+Logs/AssetImportWorker25.log
+-srvPort
+61879
+-licensingIpc
+LicenseClient-ahmed
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ahmed/USTHB ADVENTURE
+C:/Users/ahmed/USTHB ADVENTURE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45260]  Target information:
+
+Player connection [45260]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2505751662 [EditorId] 2505751662 [Version] 1048832 [Id] WindowsEditor(7,Asus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45260] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [45260] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.66f2 (b20bc5da3050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ahmed/USTHB ADVENTURE/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014525 seconds.
+- Loaded All Assemblies, in  1.390 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.111 seconds
+Domain Reload Profiling: 2488ms
+	BeginReloadAssembly (522ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (156ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (513ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (431ms)
+			TypeCache.Refresh (428ms)
+				TypeCache.ScanAssembly (400ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1112ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1016ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              49c13a8149b04f4dbe7d885f812b9ec8
+  Correlation Id:          d350efe4386b8a8c48d64a5d03455b18
+  External correlation Id: 1721390655741679351
+  Machine Id:              SnUVb1kzS9rK5kdQR4o3dJw+Iws=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ahmed" (connect: 0.00s, validation: 0.01s, handshake: 8.76s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ahmed-notifications" at "2026-01-31T18:58:44.2032557Z"
+[Licensing::Module] Licensing Background thread has ended after 8.76s
+[Licensing::Module] Licensing is initialized (took 2.90s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270619870681-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  6.246 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.757 seconds
+Domain Reload Profiling: 7971ms
+	BeginReloadAssembly (3636ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (151ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (177ms)
+	LoadAllAssembliesAndSetupDomain (2205ms)
+		LoadAssemblies (1564ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1048ms)
+			TypeCache.Refresh (740ms)
+				TypeCache.ScanAssembly (686ms)
+			BuildScriptInfoCaches (248ms)
+			ResolveRequiredComponents (47ms)
+	FinalizeReload (1758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1257ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (873ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (5.0 MB). Loaded Objects now: 7275.
+Memory consumption went from 132.8 MB to 127.8 MB.
+Total: 15.597100 ms (FindLiveObjects: 1.051700 ms CreateObjectMapping: 1.812800 ms MarkObjects: 8.842300 ms  DeleteObjects: 3.887500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66002.939028 seconds.
+  path: Assets/Arts/Textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(68d02725bfaa81a48b94ad37ff4c3bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Textures/internal_ground_ao_texture.jpeg using Guid(68d02725bfaa81a48b94ad37ff4c3bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7e6f26cd428635a37292e0574216aa4') in 0.176573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.502583 seconds.
+  path: Assets/Arts/Textures/LAMP_LP_AO.jpg
+  artifactKey: Guid(7383489eb80fe894c8f6d00057807051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Textures/LAMP_LP_AO.jpg using Guid(7383489eb80fe894c8f6d00057807051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '651d99dd3594669f278617d9d0f42440') in 0.0263385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Arts/Textures/LAMP_LP_Roughness.jpg
+  artifactKey: Guid(882590ddb1e7f344190c49116ab8a606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Textures/LAMP_LP_Roughness.jpg using Guid(882590ddb1e7f344190c49116ab8a606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1bd671235f35b8fff5e0681ecb9858c') in 0.0345506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.058604 seconds.
+  path: Assets/Arts/Materials/Roofing_Shingles_Multi.mat
+  artifactKey: Guid(94833dd96ef67414cac5e2d39d597eab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Roofing_Shingles_Multi.mat using Guid(94833dd96ef67414cac5e2d39d597eab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8be14fa66873ac85c1fe4a32fce390f2') in 0.7860915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.495057 seconds.
+  path: Assets/Arts/Materials/LAMP_LP_AO.mat
+  artifactKey: Guid(afd546f642444af4386ab85f433d96ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LAMP_LP_AO.mat using Guid(afd546f642444af4386ab85f433d96ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c0026f5748a1585e049783de5c6e25d') in 0.0432312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.206170 seconds.
+  path: Assets/Arts/Materials/LAMP_LP_Metallic.mat
+  artifactKey: Guid(1aa9b58e1a19aa9458392b967fe8c3ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LAMP_LP_Metallic.mat using Guid(1aa9b58e1a19aa9458392b967fe8c3ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb3ba18607500020f16ab2895cdbf6e3') in 0.0457813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.813723 seconds.
+  path: Assets/Arts/Materials/LAMP_LP_Normal.mat
+  artifactKey: Guid(706c17a6092b2a54d88333991f8f3a11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LAMP_LP_Normal.mat using Guid(706c17a6092b2a54d88333991f8f3a11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6aad47bc5b42e03e53c37e713b852a97') in 0.0377655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.648708 seconds.
+  path: Assets/Arts/Materials/internal_ground_ao_texture.mat
+  artifactKey: Guid(730d487cce062cd439b7347065da33c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/internal_ground_ao_texture.mat using Guid(730d487cce062cd439b7347065da33c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5054d132d87a7b2a983daa5dd809f9e3') in 0.027745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.777499 seconds.
+  path: Assets/Arts/Materials/LAMP_LP_BaseColor.mat
+  artifactKey: Guid(a85dc7af265c41641b9de6238c6bb421) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LAMP_LP_BaseColor.mat using Guid(a85dc7af265c41641b9de6238c6bb421) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '036bcd79bfa720be9fec4b998aef5e7b') in 0.0324538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.685336 seconds.
+  path: Assets/Arts/Models/lampadaire.fbx
+  artifactKey: Guid(fc52e244f9f97864abd8e830c2f7cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Models/lampadaire.fbx using Guid(fc52e244f9f97864abd8e830c2f7cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5036f63776dbf71578f6f0763f0ed9e0') in 16.1255861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.533580 seconds.
+  path: Assets/Arts/Models/lampadaire.fbx
+  artifactKey: Guid(fc52e244f9f97864abd8e830c2f7cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Models/lampadaire.fbx using Guid(fc52e244f9f97864abd8e830c2f7cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba27ce8675d760032919b3f546a1cdea') in 0.3477474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.488164 seconds.
+  path: Assets/Arts/Textures/lampaire_lampadaire_verre_BaseColor.1001.png
+  artifactKey: Guid(859481f4f975050498984caddde1d6e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Textures/lampaire_lampadaire_verre_BaseColor.1001.png using Guid(859481f4f975050498984caddde1d6e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c853dc0c773953dda59605daf92d4993') in 0.2410678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Arts/Textures/lampaire_armature_lampe_BaseColor.1001.png
+  artifactKey: Guid(3bdd1355eef302345ba5c6012ba2420d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Textures/lampaire_armature_lampe_BaseColor.1001.png using Guid(3bdd1355eef302345ba5c6012ba2420d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fc71dd7c46616cb949b984f76ead174') in 0.0464393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Arts/Textures/lampaire_lampadaire1_BaseColor.1001.png
+  artifactKey: Guid(804cd08c688cc6c4582064e5a906bcd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Textures/lampaire_lampadaire1_BaseColor.1001.png using Guid(804cd08c688cc6c4582064e5a906bcd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd453dcd94e14d191a1374b694ba6c516') in 0.057988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Arts/Textures/lampaire_lampadaire_verre_Opacity.1001.png
+  artifactKey: Guid(edc576d891ee6a6429d267ee6ff4db02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Textures/lampaire_lampadaire_verre_Opacity.1001.png using Guid(edc576d891ee6a6429d267ee6ff4db02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd174336fa5af57e48460f37bb7eaaf8') in 0.0450913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Arts/Textures/lampaire_lampadaire_verre_Roughness.1001.png
+  artifactKey: Guid(c63089eef7d00d640bc4f7def673e343) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Textures/lampaire_lampadaire_verre_Roughness.1001.png using Guid(c63089eef7d00d640bc4f7def673e343) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe3646e01186a7f6dd4564a3bb065d4b') in 0.050447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Arts/Textures/lampaire_lampadaire_verre_Metalness.1001.png
+  artifactKey: Guid(be89fb11d50f7764fb51e2e494a4acd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Textures/lampaire_lampadaire_verre_Metalness.1001.png using Guid(be89fb11d50f7764fb51e2e494a4acd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd49e1345507d7f80ff8ffd0e574932d8') in 0.0404661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

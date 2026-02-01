@@ -1,0 +1,827 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.66f1-e7adf66625be' branch; Version is '6000.0.66f2 (b20bc5da3050) revision 11668421'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15790 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ahmed" at "2026-01-31T19:28:38.5739921Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-01-31T19:28:38Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker32
+-projectPath
+C:/Users/ahmed/USTHB ADVENTURE
+-logFile
+Logs/AssetImportWorker32.log
+-srvPort
+61879
+-licensingIpc
+LicenseClient-ahmed
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ahmed/USTHB ADVENTURE
+C:/Users/ahmed/USTHB ADVENTURE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [38212]  Target information:
+
+Player connection [38212]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2125640063 [EditorId] 2125640063 [Version] 1048832 [Id] WindowsEditor(7,Asus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [38212] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38212] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.66f2 (b20bc5da3050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ahmed/USTHB ADVENTURE/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021773 seconds.
+- Loaded All Assemblies, in  2.144 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.631 seconds
+Domain Reload Profiling: 3758ms
+	BeginReloadAssembly (686ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (223ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (317ms)
+	LoadAllAssembliesAndSetupDomain (837ms)
+		LoadAssemblies (670ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (816ms)
+			TypeCache.Refresh (807ms)
+				TypeCache.ScanAssembly (738ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (107ms)
+			SetLoadedEditorAssemblies (22ms)
+			BeforeProcessingInitializeOnLoad (325ms)
+			ProcessInitializeOnLoadAttributes (722ms)
+			ProcessInitializeOnLoadMethodAttributes (221ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              37ad3a4483af413395ba7e591ffbf789
+  Correlation Id:          d350efe4386b8a8c48d64a5d03455b18
+  External correlation Id: 5929153365198296760
+  Machine Id:              SnUVb1kzS9rK5kdQR4o3dJw+Iws=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ahmed" (connect: 0.00s, validation: 0.00s, handshake: 8.35s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ahmed-notifications" at "2026-01-31T19:28:46.9242431Z"
+[Licensing::Module] Licensing Background thread has ended after 8.35s
+[Licensing::Module] Licensing is initialized (took 1.30s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270619870681-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  3.226 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.242 seconds
+Domain Reload Profiling: 5448ms
+	BeginReloadAssembly (1642ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (1358ms)
+		LoadAssemblies (939ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (621ms)
+			TypeCache.Refresh (429ms)
+				TypeCache.ScanAssembly (398ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (484ms)
+			ProcessInitializeOnLoadAttributes (966ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (5.1 MB). Loaded Objects now: 7277.
+Memory consumption went from 134.0 MB to 128.9 MB.
+Total: 20.914100 ms (FindLiveObjects: 1.958800 ms CreateObjectMapping: 1.996000 ms MarkObjects: 11.781400 ms  DeleteObjects: 5.174200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67982.935903 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_border_Normal.png
+  artifactKey: Guid(484bec5ec75f989429c3c343fdcd3aa8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Pavement_border_Normal.png using Guid(484bec5ec75f989429c3c343fdcd3aa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d9d1d5263ed9cd8c3435396d5aa3daf') in 1.0965506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_1_BaseColor.png
+  artifactKey: Guid(7bc1c2f5474191e4190fd7a272d98510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_1_BaseColor.png using Guid(7bc1c2f5474191e4190fd7a272d98510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c0e0db0ede1802c54759fba7673b137') in 0.0904564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Arts/Materials/PostBox_PostBox_Roughness.png
+  artifactKey: Guid(54e8830f7286938489c79cbda773deb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/PostBox_PostBox_Roughness.png using Guid(54e8830f7286938489c79cbda773deb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7e25e7b95ce8f42277a97c6fd8b9140') in 0.0527245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_Roughness.png
+  artifactKey: Guid(a437fc58dc86bd84c99c8dbabd632eef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Pavement_Roughness.png using Guid(a437fc58dc86bd84c99c8dbabd632eef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a64c1e20cf61e381687ebd2a193d556') in 0.0441007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Arts/Materials/Bench_Bench_Roughness.png
+  artifactKey: Guid(4e4993fb59bca7540a190c86467236d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Bench_Bench_Roughness.png using Guid(4e4993fb59bca7540a190c86467236d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f7d7457329d97be034efffe1413648d') in 0.0421756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Arts/Materials/Street_DrainBlocks_BaseColor.png
+  artifactKey: Guid(db0658936a7e8314fb62c3af17b913f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_DrainBlocks_BaseColor.png using Guid(db0658936a7e8314fb62c3af17b913f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98a3d8c0ed82d91697e0008e1442e637') in 0.0335334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Arts/Materials/Street_Asphalt_Normal.png
+  artifactKey: Guid(90fe20cce4d84b3479f8c7242df18915) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Asphalt_Normal.png using Guid(90fe20cce4d84b3479f8c7242df18915) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '074178679e7a2b9d6e4865eeea2b648f') in 0.0566873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_2_Roughness.png
+  artifactKey: Guid(9e3a0b2dbd276b345b03d26aaf92c090) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_2_Roughness.png using Guid(9e3a0b2dbd276b345b03d26aaf92c090) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e79c4ad382a4c864d88842474a7643b4') in 0.0505709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_2_Normal.png
+  artifactKey: Guid(845e2783683ae2c48a1b837e87904b43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_2_Normal.png using Guid(845e2783683ae2c48a1b837e87904b43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '535ad5f6ca3e8fb1e770581c5134e7ed') in 0.0405944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Arts/Materials/Branch_2_side2_color.png
+  artifactKey: Guid(71957d324ecf0914a955a7f58eb00463) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_2_side2_color.png using Guid(71957d324ecf0914a955a7f58eb00463) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43eb0f475c9136c6b47373fad0a60a08') in 0.0455632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Arts/Materials/Branch_1_side2_normal.png
+  artifactKey: Guid(57fda9a7d3fefba4887c4270b9375395) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_1_side2_normal.png using Guid(57fda9a7d3fefba4887c4270b9375395) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd41f7a1473d564150955e4b0b15b024') in 0.041205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Arts/Materials/Branch_2_side1_normal.png
+  artifactKey: Guid(475f19a04a579d2448a189d60828d5b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_2_side1_normal.png using Guid(475f19a04a579d2448a189d60828d5b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '168d4237f874decf2629fd22316b1ee5') in 0.0655234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Arts/Materials/Lantern_Lantern_Metallic.png
+  artifactKey: Guid(076e50eb3f65b2544bade16f9f2baca7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Lantern_Lantern_Metallic.png using Guid(076e50eb3f65b2544bade16f9f2baca7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13c57b1e82bd6b39cc4f731b49435578') in 0.0479309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Arts/Materials/TreeBark_BaseColor.png
+  artifactKey: Guid(dc33642f53def9c4b899bc4f3e829678) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/TreeBark_BaseColor.png using Guid(dc33642f53def9c4b899bc4f3e829678) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47a4178f7735ea1ba91fccaed28723de') in 0.0530983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_3_Roughness.png
+  artifactKey: Guid(03fb3b8163885bd43a7b429272dd76af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_3_Roughness.png using Guid(03fb3b8163885bd43a7b429272dd76af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36fd1678c596537412a32a3bec799912') in 0.0458997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Arts/Materials/LeafSet008_4K_Color.png
+  artifactKey: Guid(af307f55e848a3d469972dca647f5a57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LeafSet008_4K_Color.png using Guid(af307f55e848a3d469972dca647f5a57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbba0b779a649b8ae7642c39260672cc') in 0.0569082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_3_BaseColor.png
+  artifactKey: Guid(c2281cdc24227f441bf48e284f138a16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_3_BaseColor.png using Guid(c2281cdc24227f441bf48e284f138a16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f4241f2069a746ed847121f17261d26') in 0.0536982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Arts/Materials/LanternUpd_Normal.png
+  artifactKey: Guid(c40e95dabda4fb9419b38a82b5b1537e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LanternUpd_Normal.png using Guid(c40e95dabda4fb9419b38a82b5b1537e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c170316b51e4b60202bdcc42743a245a') in 0.0521637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_BaseColor.png
+  artifactKey: Guid(222c7f060d67ac047970457c49dda07f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Pavement_BaseColor.png using Guid(222c7f060d67ac047970457c49dda07f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b02cb0570c056fe249e98c5c680456bf') in 0.0356861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Arts/Materials/Street_DrainShaft_Metallic.png
+  artifactKey: Guid(19a6e666eb352a44eb90209c439a1883) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_DrainShaft_Metallic.png using Guid(19a6e666eb352a44eb90209c439a1883) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c32856ac738d6eb7bfb9e8ce64906bfd') in 0.0368614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Arts/Materials/PostBox_PostBox_Normal.png
+  artifactKey: Guid(8cf5890f95785904dadb040c422a9e0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/PostBox_PostBox_Normal.png using Guid(8cf5890f95785904dadb040c422a9e0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbdbc1ba1528909246408512220d9c9a') in 0.0436743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_1_Roughness.png
+  artifactKey: Guid(6903dd0f740395b4485dc50b4dfce0f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_1_Roughness.png using Guid(6903dd0f740395b4485dc50b4dfce0f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3458397881b60368e913b700e87c60d1') in 0.0356958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Arts/Materials/Bench_Bench_Normal.png
+  artifactKey: Guid(d5ac9ac172aeb54448f0bfa9be6b5a6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Bench_Bench_Normal.png using Guid(d5ac9ac172aeb54448f0bfa9be6b5a6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30d361980ed47a60298da1a4602a1465') in 0.056265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Arts/Materials/Bench_Bench_Metallic.png
+  artifactKey: Guid(4605a9dd58a28c24d94cb8b2a74f4289) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Bench_Bench_Metallic.png using Guid(4605a9dd58a28c24d94cb8b2a74f4289) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e57e9bd9944676c793f3dd78d33c73f6') in 0.0478107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Arts/Materials/Street_DrainShaft_Normal.png
+  artifactKey: Guid(4bd190b4b24b3304a95fa629d04892bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_DrainShaft_Normal.png using Guid(4bd190b4b24b3304a95fa629d04892bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fd15e130bcc707c273360169dd30f2a') in 0.0358648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Arts/Materials/Branch_1_side1_color.png
+  artifactKey: Guid(4691ead0c677f794387916f68c59b555) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_1_side1_color.png using Guid(4691ead0c677f794387916f68c59b555) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2f9f2314f7359fcef211326feead414') in 0.0406272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Arts/Materials/LanternUpd_Emssion.png
+  artifactKey: Guid(5ac324bc4869e3d48981b836207c7e93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LanternUpd_Emssion.png using Guid(5ac324bc4869e3d48981b836207c7e93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f7b37f513a7007ec6255790815fbb85') in 0.0594439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_4_Roughness.png
+  artifactKey: Guid(1b1ee5b1df6eab240b8f6970f2b9afe8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_4_Roughness.png using Guid(1b1ee5b1df6eab240b8f6970f2b9afe8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '848d23ab48789f6363a983aabbd8d18e') in 0.0477613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Arts/Materials/Branch_2_side1_color.png
+  artifactKey: Guid(423e1e624fa67b14095e7db4d00ed647) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_2_side1_color.png using Guid(423e1e624fa67b14095e7db4d00ed647) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c87bff1a18420a9cc82df29e1b4595ff') in 0.0605207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_2_BaseColor.png
+  artifactKey: Guid(df2c976e30634fb4885da62629264b30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_2_BaseColor.png using Guid(df2c976e30634fb4885da62629264b30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bf71a4226baa6dadd02716ca2979968') in 0.0414911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Arts/Materials/Street_DrainBlocks_Roughness.png
+  artifactKey: Guid(362d96507d675b64bb253ccf2dcd9306) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_DrainBlocks_Roughness.png using Guid(362d96507d675b64bb253ccf2dcd9306) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '044338039fef488b9b25bddc839050ef') in 0.041716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Arts/Materials/LeafSet008_4K_Roughness.png
+  artifactKey: Guid(756cedb5e6365af4aaff1535e26cbb88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LeafSet008_4K_Roughness.png using Guid(756cedb5e6365af4aaff1535e26cbb88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19415bc2ef3dd6d82dc04a711d966d16') in 0.0255802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Arts/Materials/Street_DrainShaft_BaseColor.png
+  artifactKey: Guid(0758631a4a1c8204c98908af18d62b74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_DrainShaft_BaseColor.png using Guid(0758631a4a1c8204c98908af18d62b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02b83fb677d597a3119bc58fd92d929b') in 0.0329735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Arts/Materials/LanternUpd_BaseColor.png
+  artifactKey: Guid(39355bfc914999d4dbfac3f22fd9ca57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LanternUpd_BaseColor.png using Guid(39355bfc914999d4dbfac3f22fd9ca57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfe5427584b425dfb97d6afb507778f6') in 0.0421132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Arts/Materials/LanternUpd_Roughness.png
+  artifactKey: Guid(89aa2ba6579592c42b0d67f1b9d580fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LanternUpd_Roughness.png using Guid(89aa2ba6579592c42b0d67f1b9d580fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b7cc190bd4f5e43db178fde1487e65f') in 0.0446805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_border_Roughness.png
+  artifactKey: Guid(7342ef8c83a77974a9187a5f998ec36a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Pavement_border_Roughness.png using Guid(7342ef8c83a77974a9187a5f998ec36a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '953e3b1551d748ed288e0ce28efd4414') in 0.0339546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Arts/Materials/Street_Asphalt_Roughness.png
+  artifactKey: Guid(a1b0a928f7645254cbf93209cdc8fbc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Asphalt_Roughness.png using Guid(a1b0a928f7645254cbf93209cdc8fbc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a90735af071d69aef50fa09d14b0b32') in 0.030814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Arts/Materials/LeafSet007_4K_Color.png
+  artifactKey: Guid(8724eadf24d8d374bb19eadd0947efdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LeafSet007_4K_Color.png using Guid(8724eadf24d8d374bb19eadd0947efdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cf2a19e5e325124a53d8314fac8e971') in 0.0405081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Arts/Materials/Street_Asphalt_BaseColor.png
+  artifactKey: Guid(3e5996b1558201f4eab8ad18aa672585) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Asphalt_BaseColor.png using Guid(3e5996b1558201f4eab8ad18aa672585) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '040257840070710a0f213f1a50756439') in 0.0383038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Arts/Materials/Branch_1_side1_rough.png
+  artifactKey: Guid(f71e3f2e5ccca85499794afbdd4af0bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_1_side1_rough.png using Guid(f71e3f2e5ccca85499794afbdd4af0bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b96de8d4042151ab65b89b0917c24051') in 0.064046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Arts/Materials/Street_ground_BaseColor.png
+  artifactKey: Guid(c88ad1476e0d9e04e82a9ab05cfdb552) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_ground_BaseColor.png using Guid(c88ad1476e0d9e04e82a9ab05cfdb552) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5d534740c5d6fed6f0538da2503a7f9') in 0.0417723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_3_Metallic.png
+  artifactKey: Guid(9e92ef8978c3cc84988c5abc486471ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_3_Metallic.png using Guid(9e92ef8978c3cc84988c5abc486471ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7699d0b6853b1ae697c1c65ba6b888c4') in 0.0373587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Arts/Materials/Branch_2_side2_rough.png
+  artifactKey: Guid(72630f976d578d24c8146bb3ebf18d5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_2_side2_rough.png using Guid(72630f976d578d24c8146bb3ebf18d5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e009cd35fdf014438a9c19a641da5bcd') in 0.0394587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Arts/Materials/TrashBin_Metallic.png
+  artifactKey: Guid(b1fc4e8a2f99660498ff6df87095d5de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/TrashBin_Metallic.png using Guid(b1fc4e8a2f99660498ff6df87095d5de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faacfb675d1354c8b9c8773c37a9baef') in 0.0461741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_border_BaseColor.png
+  artifactKey: Guid(2ea7130a41f2d294e97754673dd0757e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_Pavement_border_BaseColor.png using Guid(2ea7130a41f2d294e97754673dd0757e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1da61abc5f3ddfc03f0e7ac5fc812a0a') in 0.0370451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Arts/Materials/LeafSet007_4K_Roughness.png
+  artifactKey: Guid(87196d0d8d40212489cfa4db34401570) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/LeafSet007_4K_Roughness.png using Guid(87196d0d8d40212489cfa4db34401570) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73d05000270955823348afbed406f5b7') in 0.0487377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Arts/Materials/TreeBark_Roughness.png
+  artifactKey: Guid(e8b486a2db9a99c48aba7f899cd2e5ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/TreeBark_Roughness.png using Guid(e8b486a2db9a99c48aba7f899cd2e5ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2051c512ec38457d2cf5977830bbf550') in 0.0321271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Arts/Materials/TrashBin_BaseColor.png
+  artifactKey: Guid(c1dcc61ed678269479fc0f1e44e044e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/TrashBin_BaseColor.png using Guid(c1dcc61ed678269479fc0f1e44e044e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4204fa653c0d8337ab05f215e9752a8d') in 0.0396816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_3_Normal.png
+  artifactKey: Guid(8b38cdc11a944484f88516128a484948) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_3_Normal.png using Guid(8b38cdc11a944484f88516128a484948) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8a91fa13995cbb2e896a2e7beaa5a70') in 0.0426595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Arts/Materials/Street_ground_Normal.png
+  artifactKey: Guid(978f719e89318644e927152b772f5cf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Street_ground_Normal.png using Guid(978f719e89318644e927152b772f5cf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f56d92ea133c0339349c136a92d1fb8d') in 0.033976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Arts/Materials/Bench_Bench_BaseColor.png
+  artifactKey: Guid(26e4065236f07654f9330e8cf9ad9864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Bench_Bench_BaseColor.png using Guid(26e4065236f07654f9330e8cf9ad9864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a342fcfaebb3b4fb480c81df8b1688d2') in 0.0399086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Arts/Materials/Branch_1_side2_color.png
+  artifactKey: Guid(2183bab566f8c5d418458a554561b429) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_1_side2_color.png using Guid(2183bab566f8c5d418458a554561b429) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3894670c5ab7e57b704c8fefabef6aa6') in 0.050206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Arts/Materials/Branch_2_side2_normal.png
+  artifactKey: Guid(e4455e44647e89c4d8518fc5fb14bf0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Arts/Materials/Branch_2_side2_normal.png using Guid(e4455e44647e89c4d8518fc5fb14bf0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1a3a4aac1073f93818b8ea7a8d884dd') in 0.043185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.240289 seconds.
+  path: Assets/Arts/Materials/bark03_n.mat
+  artifactKey: Guid(19c1c79f269f9ef4696069b13d603e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/bark03_n.mat using Guid(19c1c79f269f9ef4696069b13d603e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb0379602e781f73b5c39675432c1e84') in 2.3414275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Arts/Materials/Branch_1_side2_normal.png
+  artifactKey: Guid(57fda9a7d3fefba4887c4270b9375395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Branch_1_side2_normal.png using Guid(57fda9a7d3fefba4887c4270b9375395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d16fb0e11963772de167616f7f766e') in 0.0543793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_2_Metallic.png
+  artifactKey: Guid(02469e56e2f7fcc4f9c92b7f54ae6dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_2_Metallic.png using Guid(02469e56e2f7fcc4f9c92b7f54ae6dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea7a5595e4609f6e71e5fc63f82702bc') in 0.0275949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Arts/Materials/Bench_Bench_BaseColor.png
+  artifactKey: Guid(26e4065236f07654f9330e8cf9ad9864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Bench_Bench_BaseColor.png using Guid(26e4065236f07654f9330e8cf9ad9864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b78e01fb96adb9105154cc8210256bc1') in 0.0249593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Arts/Materials/Bench_Bench_Metallic.png
+  artifactKey: Guid(4605a9dd58a28c24d94cb8b2a74f4289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Bench_Bench_Metallic.png using Guid(4605a9dd58a28c24d94cb8b2a74f4289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6345ad23b04190aaa9658884a8f404c5') in 0.026933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Arts/Materials/Lantern_Lantern_Metallic.png
+  artifactKey: Guid(076e50eb3f65b2544bade16f9f2baca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Lantern_Lantern_Metallic.png using Guid(076e50eb3f65b2544bade16f9f2baca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6143b2687048acbd463aea0613f5a104') in 0.0268452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Arts/Materials/LeafSet007_4K_Color.png
+  artifactKey: Guid(8724eadf24d8d374bb19eadd0947efdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/LeafSet007_4K_Color.png using Guid(8724eadf24d8d374bb19eadd0947efdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f382bae8c6b09b74ee2b124298bfcc7') in 0.034564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_2_BaseColor.png
+  artifactKey: Guid(df2c976e30634fb4885da62629264b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_2_BaseColor.png using Guid(df2c976e30634fb4885da62629264b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a8639f550ec80b0a84bf91d320abe11') in 0.0355252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Arts/Materials/LanternUpd_BaseColor.png
+  artifactKey: Guid(39355bfc914999d4dbfac3f22fd9ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/LanternUpd_BaseColor.png using Guid(39355bfc914999d4dbfac3f22fd9ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8cf6ec1f207e0bf8620574d5b3c714f') in 0.0251288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Arts/Materials/Byc_1_Byc_Set_1_Normal.png
+  artifactKey: Guid(9f3b5d9b4a9745b46a45d0c7b19abf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Byc_1_Byc_Set_1_Normal.png using Guid(9f3b5d9b4a9745b46a45d0c7b19abf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '355f3a68ac8d0d30ffa20e11c2a5ebc7') in 0.0270305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Arts/Materials/Bench_Bench_Roughness.png
+  artifactKey: Guid(4e4993fb59bca7540a190c86467236d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Bench_Bench_Roughness.png using Guid(4e4993fb59bca7540a190c86467236d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8781667ed8055f0083f5c3732bb305a') in 0.0274234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Arts/Materials/Branch_1_side1_color.png
+  artifactKey: Guid(4691ead0c677f794387916f68c59b555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Branch_1_side1_color.png using Guid(4691ead0c677f794387916f68c59b555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ccbe0c558aca7e1e6d62aba1db6764f') in 0.0342083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.355911 seconds.
+  path: Assets/Arts/Materials/LeafSet008_4K_Color.png
+  artifactKey: Guid(af307f55e848a3d469972dca647f5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/LeafSet008_4K_Color.png using Guid(af307f55e848a3d469972dca647f5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94d1fba491ddc3453b13ca6badc8673d') in 0.0294853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Arts/Materials/Street_Asphalt_Normal.png
+  artifactKey: Guid(90fe20cce4d84b3479f8c7242df18915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_Asphalt_Normal.png using Guid(90fe20cce4d84b3479f8c7242df18915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d6fab2ae2214c6822f2771a7d593c8') in 0.0262334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Arts/Materials/Street_DrainBlocks_BaseColor.png
+  artifactKey: Guid(db0658936a7e8314fb62c3af17b913f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_DrainBlocks_BaseColor.png using Guid(db0658936a7e8314fb62c3af17b913f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb1ec1a2f4bcf53b457186d78507944d') in 0.020365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_BaseColor.png
+  artifactKey: Guid(222c7f060d67ac047970457c49dda07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_Pavement_BaseColor.png using Guid(222c7f060d67ac047970457c49dda07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77ae30523f7365694314009e2d167d9b') in 0.0220654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Arts/Materials/Street_ground_BaseColor.png
+  artifactKey: Guid(c88ad1476e0d9e04e82a9ab05cfdb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_ground_BaseColor.png using Guid(c88ad1476e0d9e04e82a9ab05cfdb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed98427b380f4d8d87f14255ab043fd4') in 0.0278969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Arts/Materials/Street_DrainShaft_BaseColor.png
+  artifactKey: Guid(0758631a4a1c8204c98908af18d62b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_DrainShaft_BaseColor.png using Guid(0758631a4a1c8204c98908af18d62b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3855afb5ad4ac7046efefc5c5532b019') in 0.0312011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_Roughness.png
+  artifactKey: Guid(a437fc58dc86bd84c99c8dbabd632eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_Pavement_Roughness.png using Guid(a437fc58dc86bd84c99c8dbabd632eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83e2e6a53473e36456010b738cebbceb') in 0.0287278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Arts/Materials/Street_Pavement_border_BaseColor.png
+  artifactKey: Guid(2ea7130a41f2d294e97754673dd0757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_Pavement_border_BaseColor.png using Guid(2ea7130a41f2d294e97754673dd0757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '949f9d793363fc9d60bacca9ca30c018') in 0.024822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Arts/Materials/Street_DrainShaft_Normal.png
+  artifactKey: Guid(4bd190b4b24b3304a95fa629d04892bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Street_DrainShaft_Normal.png using Guid(4bd190b4b24b3304a95fa629d04892bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01a462362e6321570b35b0374972c61b') in 0.0214326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Arts/Materials/PostBox_PostBox_Roughness.png
+  artifactKey: Guid(54e8830f7286938489c79cbda773deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/PostBox_PostBox_Roughness.png using Guid(54e8830f7286938489c79cbda773deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beaa30a24b8d51924d54bdd7cb6a6a2a') in 0.0265402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
